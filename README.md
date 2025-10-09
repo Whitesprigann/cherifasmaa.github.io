@@ -92,13 +92,6 @@ To change the color scheme, edit the CSS variables in `style.css`:
 3. Drag and drop your project folder
 4. Your site will be live in seconds!
 
-### Option 3: Vercel (Free)
-
-1. Go to https://vercel.com/
-2. Sign up with GitHub
-3. Import your repository
-4. Deploy automatically
-
 ## Adding Real Project Content
 
 ### For Tableau/Power BI Projects
@@ -117,31 +110,9 @@ To change the color scheme, edit the CSS variables in `style.css`:
 2. Add them to the `images` folder
 3. Consider creating interactive versions with Plotly/D3.js
 
-## Tips for Success
-
-✅ **Add Real Projects**: Replace sample projects with 3-5 of your best work
-✅ **Include Metrics**: Show impact (e.g., "Improved efficiency by 30%")
-✅ **Write Clear Descriptions**: Explain the problem, solution, and results
-✅ **Keep It Updated**: Add new projects regularly
-✅ **Get Feedback**: Ask peers to review before publishing
-✅ **Add Analytics**: Use Google Analytics to track visitors
-✅ **SEO Optimization**: Update meta tags for better search visibility
-
 ## Additional Resources
 
 - **Resume/CV**: Consider adding a downloadable PDF resume
 - **Blog**: Add a blog section to share insights and tutorials
-- **Testimonials**: Include recommendations from colleagues or clients
 - **Certifications**: Display relevant certifications and courses
 
-## Support
-
-If you need help customizing or deploying your portfolio, feel free to reach out!
-
-## License
-
-This template is free to use for personal portfolios. No attribution required.
-
----
-
-Good luck with your job search! 🚀
