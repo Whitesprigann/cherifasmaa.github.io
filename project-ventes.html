@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord des Performances de Ventes - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .project-detail {
+            padding: 80px 0 40px;
+            min-height: 100vh;
+        }
+        
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: #4A90E2;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            gap: 15px;
+            color: #357ABD;
+        }
+        
+        .project-header {
+            margin-bottom: 40px;
+        }
+        
+        .project-header h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        .project-meta {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #666;
+        }
+        
+        .meta-item i {
+            color: #4A90E2;
+        }
+        
+        .project-image-large {
+            width: 100%;
+            border-radius: 10px;
+            margin: 30px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .project-section {
+            margin: 40px 0;
+        }
+        
+        .project-section h2 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            border-left: 4px solid #4A90E2;
+            padding-left: 15px;
+        }
+        
+        .project-section h3 {
+            font-size: 1.4rem;
+            color: #34495e;
+            margin: 25px 0 15px;
+        }
+        
+        .project-section p {
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+        .project-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .project-section ul li {
+            padding: 10px 0 10px 30px;
+            position: relative;
+            line-height: 1.6;
+            color: #555;
+        }
+        
+        .project-section ul li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4A90E2;
+            font-weight: bold;
+        }
+        
+        .tech-stack {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        
+        .tech-badge {
+            background: #4A90E2;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .result-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #4A90E2;
+        }
+        
+        .result-card h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        
+        .result-card p {
+            color: #666;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>CHERIF Asmaa Chaimaa</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#home">Accueil</a></li>
+                <li><a href="index.html#about">À Propos</a></li>
+                <li><a href="index.html#skills">Compétences</a></li>
+                <li><a href="index.html#experience">Expérience</a></li>
+                <li><a href="index.html#education">Formation</a></li>
+                <li><a href="index.html#projects">Projets</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Detail Section -->
+    <section class="project-detail">
+        <div class="container">
+            <a href="index.html#projects" class="back-button">
+                <i class="fas fa-arrow-left"></i>
+                Retour aux projets
+            </a>
+            
+            <div class="project-header">
+                <h1>Tableau de Bord des Performances de Ventes</h1>
+                
+                <!--<div class="project-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Juin 2024 - Août 2024</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-user"></i>
+                        <span>Projet Personnel</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>3 mois</span>
+                    </div>
+                </div>
+                
+                <div class="tech-stack">
+                    <span class="tech-badge">Tableau</span>
+                    <span class="tech-badge">SQL</span>
+                    <span class="tech-badge">PostgreSQL</span>
+                    <span class="tech-badge">Excel</span>
+                    <span class="tech-badge">Data Visualization</span>
+                </div>-->
+            </div>
+            
+            <img src="images/projet1.jpg" alt="Dashboard Preview" class="project-image">
+            
+            <div class="project-section">
+                <h2>Objectif</h2>
+                <p>L’objectif de ce projet était de concevoir un tableau de bord interactif permettant d’analyser la performance commerciale d’une entreprise fictive. L’enjeu principal consistait à modéliser les données de manière optimale afin de faciliter les analyses multidimensionnelles et la prise de décision.</p>
+            </div>
+            
+            <div class="project-section">
+                <h2>Contexte et structuration du modèle</h2>
+                <p>Les données sources, issues d'un fichier CSV (ventes, clients, produits et régions), ont été intégrées et nettoyées dans Power BI à l’aide de Power Query.</p>
+                <p>J’ai ensuite construit un modèle en étoile, avec une table de faits centralisant les ventes et des tables de dimensions pour les clients, produits, dates et zones géographiques. Ce schéma a permis d’assurer la cohérence des relations, d’optimiser les calculs DAX et d’améliorer les performances globales du modèle.</p>
+            </div>
+
+            <img src="images/projet1_4.jpg" alt="Dashboard Preview" class="project-image">
+            
+            <div class="project-section">
+                <h2>Conception du tableau de bord</h2>
+                <p>Le tableau de bord a été conçu pour offrir une lecture claire et dynamique des indicateurs clés : chiffre d’affaires, volume des ventes, panier moyen et répartition géographique.</p>
+                <p>J’ai intégré plusieurs visualisations, des filtres interactifs et des info-bulles, tous interactifs et dynamiques pour permettre des analyses par période, catégorie de produit ou région. L’objectif était de fournir un outil de pilotage flexible et ergonomique.</p>
+            </div>
+
+            <img src="images/projet1_2.jpg" alt="Dashboard Preview" class="project-image">
+            <img src="images/projet1_3.jpg" alt="Dashboard Preview" class="project-image">
+            
+            <div class="project-section">
+                <h2>Conclusion</h2>
+                <p>Ce projet m’a permis de mettre en pratique l’ensemble du cycle analytique : préparation des données, modélisation, conception visuelle et création de mesures avancées. Le résultat est un tableau de bord structuré, performant et conforme aux bonnes pratiques de la Business Intelligence.</p>
+            </div>
+
+            
+            
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Cherif Asmaa. Conçu avec passion pour les données.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
